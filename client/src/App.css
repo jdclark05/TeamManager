@@ -1,0 +1,361 @@
+/**APP main ----------------------------------------------------------*/
+.appContainer {
+  border: 2px solid #000;
+  height: 950px;
+  width: 1900px;
+  background-color: #e3e3e3;
+}
+
+.navDiv{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navMain1{
+  font-size: 1.5rem;
+  color: rgb(52, 52, 238);
+  margin-left: 30px;
+  width: 200px;
+  line-height: 3rem;
+  text-decoration: underline;
+  border-right: 2px solid #000;
+}
+
+.navMain2{
+  font-size: 1.5rem;
+  color: rgb(52, 52, 238);
+  margin-left: 30px;
+  line-height: 3rem;
+  text-decoration: underline;
+}
+
+
+.innerContentDiv {
+  height: 750px;
+  width: 1200px;
+  border: 2px solid #000;
+  margin-left: 25px;
+  background-color: #fff;
+}
+
+
+/** List of Players ---ALSO Head Section of Add Player-----------------*/
+.listMain {
+  height: 700px;
+  width: 1100px;
+  margin-left: 50px;
+  margin-top: 25px;
+}
+
+.listNav {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0px;
+}
+
+.header1 {
+  margin-top: 0px;
+  height: 35px;
+  width: 70px;
+  font-size: 1.8rem;
+  margin-left: 20px;
+  border-right: 2px solid #000;
+  text-decoration: underline;
+  color: rgb(52, 52, 238);
+}
+
+.header2 {
+  margin-top: 0px;
+  font-size: 1.8rem;
+  margin-left: 20px;
+  text-decoration: underline;
+  color: rgb(52, 52, 238);
+}
+
+.tableSub {
+  height: 625px;
+  width: 1050px;
+  border: 2px solid #000;
+  overflow: scroll;
+}
+
+.tableHeaders {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 40px;
+}
+
+.header3{
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  width: 39%;
+  height: 40px;
+  border-right: 2px solid #000;
+  background-color: #888888;
+}
+
+.header4 {
+  padding-left: 10px;
+  width: 40%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  border-right: 2px solid #000;
+  background-color: #888888;
+}
+
+.header5 {
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 20%;
+  background-color: #888888;
+}
+
+.tableRow {
+  display: flex;
+  background-color: #fff;
+}
+
+.tableRow:nth-child(odd){
+  background-color: #e3e3e3;
+}
+
+.playerColumn {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  height: 40px;
+  border-right: 2px solid #000;
+  border-bottom: 2px solid #000;
+}
+
+.playerName {
+  color: rgb(52, 52, 238);
+  padding-left: 10px;
+}
+
+.positionColumn {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  height: 40px;
+  padding-left: 10px;
+  border-right: 2px solid #000;
+  border-bottom: 2px solid #000;
+}
+
+.buttonsED {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  height: 40px;
+  padding-left: 10px;
+  border-bottom: 2px solid #000;
+}
+
+.deleteButton {
+  width: 105px;
+  height: 30px;
+  background-color: red;
+}
+
+/** Add Player Content --------------------------------------------*/
+.tableSub2 {
+  height: 325px;
+  width: 1050px;
+  border: 2px solid #000;
+}
+
+.addPlayerText {
+  margin-left: 40px;
+}
+
+.formMain {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+}
+
+.formAttributes1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 1000px;
+  height: 40px;
+}
+
+.nameErrors {
+  margin-left: 210px;
+  margin-top: -10px;
+}
+
+.formLabel {
+  width: 200px;
+  text-align: right;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.formInput {
+  width: 600px;
+  height: 25px;
+  border: 2px solid #000;
+}
+
+.formAttributes2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 960px;
+  height: 40px;
+}
+
+.formLabel2 {
+  font-weight: bold;
+  width: 200px;
+  text-align: right;
+  margin-right: 10px;
+}
+
+.formInput2 {
+  width: 600px;
+  height: 25px;
+  border: 2px solid #000;
+}
+
+.formButton {
+  width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.addButton {
+  margin-right: 180px;
+  width: 200px;
+  height: 25px;
+  background-color: green;
+  color: #fff;
+  box-shadow: 4px 4px 1px 1px rgba(0, 0, 0, 0.9);
+}
+
+/** Game/Player Status -----------------------------------------*/
+.gameSelector {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 1100px;
+}
+
+.game1 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  font-size: 1.8rem;
+  border-right: 2px solid #000;
+  margin-right: 20px;
+}
+
+.game2 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  font-size: 1.8rem;
+  border-right: 2px solid #000;
+  margin-right: 20px;
+}
+
+.game3 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  font-size: 1.8rem;
+}
+
+.tableSub2 {
+  width: 1065px;
+  height: 450px;
+  border: 2px solid #000;
+  overflow: scroll;
+}
+
+.tableHeaders2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 40px;
+  width: 1065px;
+  background-color: #888888;
+  border: 2px solid #000;
+}
+
+.header6 {
+  width: 33%;
+  height: 25px;
+  margin: 0;
+  padding: 10px;
+  border-right: 2px solid #000;
+}
+
+.header7 {
+  padding: 10px;
+  text-align: center;
+  margin: auto;
+}
+
+.playerName2 {
+  width: 32.6%;
+  color: rgb(52, 52, 238);
+  padding: 12px;
+  border-right: 2px solid #000;
+}
+
+.tableRow2 {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  width: 1065px;
+  background-color: #fff;
+}
+
+.tableRow2:nth-child(odd){
+  background-color: #e3e3e3;
+}
+
+.buttonsPNU {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 62%;
+  height: 40px;
+  padding-left: 10px;
+}
+
+.playingButton {
+  width: 30%;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.notPlayingButton {
+  width: 30%;
+  height: 25px;
+}
+
+.undecidedButton {
+  width: 30%;
+  height: 25px;
+  margin-left: 10px;
+}

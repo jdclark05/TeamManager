@@ -37,6 +37,7 @@
   background: linear-gradient(90deg, rgba(255, 255, 255, .25), rgba(255, 255, 255, .25), rgba(0, 0, 0, .25), rgba(255, 255, 255, .25));
 	background-size: 400% 400%;
   border: 2px solid rgba(100, 100, 100, 0.445);
+  box-shadow: 5px 5px 15px 10px rgba(65, 27, 27, 0.3);
 
   opacity: 1;
 }
@@ -67,6 +68,16 @@
   color: rgb(52, 52, 238);
 }
 
+.headerAdd {
+  margin-top: 0px;
+  height: 35px;
+  width: 200px;
+  margin-left: 8px;
+  font-size: 1.6rem;
+  text-decoration: underline;
+  color: rgb(52, 52, 238);
+}
+
 .header2 {
   margin-top: 0px;
   font-size: 1.6rem;
@@ -80,6 +91,16 @@
   width: 1050px;
   border: 2px solid #000;
   overflow: scroll;
+  box-shadow: 5px 5px 15px 10px rgba(65, 27, 27, 0.3);
+}
+
+.tableSub3 {
+  margin: auto;
+  margin-top: 100px;
+  height: 425px;
+  width: 1050px;
+  border: 2px solid #000;
+  box-shadow: 5px 5px 15px 10px rgba(65, 27, 27, 0.3);
 }
 
 .tableHeaders {
@@ -341,6 +362,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  box-shadow: 5px 5px 15px 10px rgba(65, 27, 27, 0.3);
 }
 
 .tableSub2 {
@@ -348,6 +370,7 @@
   height: 530px;
   border: 2px solid #000;
   overflow: scroll;
+  box-shadow: 5px 5px 15px 14px rgba(65, 27, 27, 0.3);
 }
 
 .tableHeaders2 {

@@ -35,10 +35,8 @@ const Add = (props) => {
         <div className="listMain">
              <div className="tableMain" >
                  <div className="listNav">
-                    <h3 className="header1"><Link to="/players/list">List </Link></h3>
-                    <h3 className="header2"><Link to="/players/add"> Add Player</Link></h3>
                  </div>
-                <div className="tableSub2">
+                <div className="tableSub3">
                     <h1 className="addPlayerText" >Add Player</h1>
                     <form onSubmit={onSubmitHandler} className="formMain">
                         <p className="formAttributes1">

@@ -20,8 +20,8 @@ const List = (props) => {
         <div className="listMain">
              <div className="tableMain" >
                  <div className="listNav">
-                    <h3 className="header1">List</h3>
-                    <h3 className="header2"><Link to="/players/add"> Add Player</Link></h3>
+                    <h3 className="header1"><Link id="gameLink" to="/">Player List</Link></h3>
+                    <h3 className="header2"><Link id="gameLink" to="/players/add"> Add Player</Link></h3>
                  </div>
                 <div className="tableSub">
                     <div className="tableHeaders">

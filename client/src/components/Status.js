@@ -42,27 +42,26 @@ const Status = (props) => {
 
 
     return(
-    <div className="listMain">
-            <div className="listHeader">
-                <h1>Player Status Game {num}</h1>
-            </div>
-            <div className="gameSelector">
+    <div className="listMain2">
+        <div className="listHeader">
+            <h1 className="gameStatusHeader">Player Status Game {num}</h1>
+        </div>
+        <div className="gameSelector">
             <div>
-                <p className="game1" ><Link to="/status/game/1"> Game 1 </Link></p>
-            </div>
-            <div>
-                <p className="game2"><Link to="/status/game/2"> Game 2 </Link></p>
+                <p className="game1" ><Link id="gameLink" to="/status/game/1"> Game 1 </Link></p>
             </div>
             <div>
-                <p className="game3"><Link to="/status/game/3"> Game 3 </Link></p>
+                <p className="game2"><Link id="gameLink" to="/status/game/2"> Game 2 </Link></p>
             </div>
+            <div>
+                <p className="game3"><Link  id="gameLink"to="/status/game/3"> Game 3 </Link></p>
             </div>
-            <div className="tableMain2" >
-                <div className="tableHeaders2">
-                <h3 className="header6">Team Name</h3>
+        </div>
+        <div className="tableMain2" >
+            <div className="tableHeaders2">
+                <h3 className="header6">Team Members</h3>
                 <h3 className="header7">Actions</h3> 
-                </div>
-
+            </div>
             <div className="tableSub2">
                 {players.map((player, index) => {
                     return(
